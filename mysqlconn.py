@@ -37,4 +37,4 @@ if match:
 else:
     logging.error("Database connection string not found !!")
     sys.exit();
-call(["mysql", "-h"+host,"-P"+port,"-u"+userName ,"-p"+passWord],database)
+call(["mysql", "-h"+host,"-P"+port,"-u"+userName ,"-p"+passWord,database])
